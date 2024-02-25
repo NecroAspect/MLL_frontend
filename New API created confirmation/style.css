@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#body_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #87BDBF;
+}
+
+#message_box_container {
+    height: 70%;
+    width: 50%;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#mahindra_logo_container {
+    height: 10%;
+    padding: 5px;
+}
+
+#mahindra_logo {
+    height: 100%;
+    /* width: 100%; */
+}
+
+#message {
+    height: 80%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#image_1_container {
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#image_1 {
+    height: 100%;
+    
+}
+
+#API_info_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+#key_created_message {
+    width: 100%;
+    padding-bottom: 20px;
+    color: rgb(94, 94, 94);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    
+}
+
+#table_1_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: auto; */
+}
+
+#table_1 {
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    width: 50%;
+}
+
+th {
+    text-align: left;
+    padding: 2px;
+    font-weight: 600;
+}
+
+td {
+    text-align: right;
+    padding: 2px;
+}
+
+th , td , #table_1 {
+    /* border: 1px solid black; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+
+
+
